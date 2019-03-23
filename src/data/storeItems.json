@@ -1,0 +1,5 @@
+[
+  {"type": "gift", "id": "0", "title": "Zero", "desc": "This was the first ever item on the store"},
+  {"type": "gift", "id": "1", "title": "One", "desc": "Simple yet interesting item"},
+  {"type": "flower", "id": "0", "title": "Two", "desc": "Two items makes everything perfecto"}
+]

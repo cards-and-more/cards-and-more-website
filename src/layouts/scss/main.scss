@@ -1,0 +1,52 @@
+* {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  letter-spacing: 1px;
+  @include for-phone-only {
+    font-size: 15px;
+  }
+}
+
+
+// inputs 
+a button, button {
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  
+  border: none;
+  background-color: $blue;
+  color: white;
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
+
+  &.outline {
+    background-color: $white;
+    border: 1px solid gray;
+    color: black;
+  }
+
+  &.dark-red {
+    background-color: $dark-red;
+  }
+  &.orange {
+    background-color: lightsalmon;
+  }
+}
+
+// text
+p, h1, h2, h3, h4, h5 ,h6 {
+  line-height: 1.6;
+}
+.page-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}

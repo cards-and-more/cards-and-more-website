@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{215:function(e){e.exports={data:{storeItem:{id:"1",title:"Bag",fields:{price:"34",description:"Intersting description comes here"}}}}}}]);

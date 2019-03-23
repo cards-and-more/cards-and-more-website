@@ -1,0 +1,33 @@
+// colors
+$red: red;
+$dark-red: #3f0511;
+$white: white;
+$blue: blue;
+
+// sizing
+$padding: 15px;
+$container-padding: $padding 7%;
+
+// others
+$main-border: 1.5px solid lightgray;
+$secondary-border: 1px solid lightgray;
+
+// text
+$ultra-bold: 900;
+
+// breakpoints
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait {
+  @media (max-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape {
+  @media (max-width: 900px) { @content; }
+}
+@mixin for-desktop {
+  @media (max-width: 1200px) { @content; }
+}
+@mixin for-big-desktop {
+  @media (max-width: 1800px) { @content; }
+}
